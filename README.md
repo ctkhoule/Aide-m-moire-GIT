@@ -1,2 +1,2 @@
-# Aide-m-moire-GIT
+# Aide-memoire-GIT
 Aide-mémoire sur les différentes commandes GIT
