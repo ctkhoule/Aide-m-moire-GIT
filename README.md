@@ -19,4 +19,45 @@ Configurer les informations de l'utilisateurs pour tous les dépôts locaux
  
  - Voir la configuration :
  
-   `git config --list"`
+   `git config --list`
+   
+## Créer dépôt et fichier .gitignore
+Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante et créer un fichier « .gitignore » 
+
+- Créer un dépôt local à partitr du nom spécifié :
+
+   `git init nom-du-projet`
+   
+ - Créer un nouveau dépôt local (dans le dossier courant) :
+ 
+    `git init`
+  
+ - Cloner un dépôt existant : 
+ 
+    `git clone url`
+  
+  - Créer un fichier « .gitignore » :
+  
+    `vim .gitignore`
+   
+    `git add .gitignore`
+   
+    `git commit -m "Ajout fichier gitignore"`
+    
+ - Créer un fichier « .gitignore » en utilisant un template « Windows » :
+ 
+    `curl -s https://www.gitignore.io/api/windows > .gitignore`
+    
+    `git add .gitignore`
+    
+    `git commit -m "Ajout gitignore"`
+ 
+- Créer un fichier « .gitignore » en utilisant un template « MacOS » :
+
+    `curl -s https://www.gitignore.io/api/osx > .gitignore`
+
+    `git add .gitignore`
+
+    `git commit -m "Ajout gitignore"`
+
+
