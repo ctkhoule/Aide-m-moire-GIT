@@ -63,7 +63,7 @@ Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante et créer
 ## Effectuer des changements
 Consulter les modifications et effectuer une opération de commit
 
-- Liste tous les nouveaux fihiers et les fichiers modifiés à commiter :
+- Liste tous les nouveaux fichiers et les fichiers modifiés à commiter :
 
     `git status`
     
@@ -106,7 +106,45 @@ Consulter les modifications et effectuer une opération de commit
 - Modifie le commit précédent : 
 
     `git commit --amend -m "nouveau message du commit"`
+    
+## Grouper des changements - les branches & tags
+Nommer une série de commits et combiner les résultats de travaux terminés
 
+- Liste toutes les branches dans le dépôt courant :
+
+    `git branch`
+    
+- Crée une nouvelle branche :
+
+    `git branch nom-branche`
+    
+- Bascule sur la branche spécifiée :
+
+    `git checkout nom-branch`
+    
+- Crée et bascule sur la nouvelle branche :
+
+    `git checkout -b nom-branche`
+    
+- Renomme la branche en cours :
+
+    `git branch -m nouveau-nom-branche`
+    
+- Supprime une branche spécifiée :
+
+    `git branch -d nom-branche`
+    
+- Combine dans la branche courante l'historique de la branche spécifiée :
+
+    `git merge nom-branche`
+    
+- Crée une nouvelle branche de suivi, basée sur une branche distante :
+
+    `git branch --track nouvelle-branche branche-distante`
+    
+- Marque le commit courant avec un tag :
+
+    `git tag nom-tag`
     
 
     
