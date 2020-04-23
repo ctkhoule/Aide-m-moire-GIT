@@ -67,7 +67,7 @@ Consulter les modifications et effectuer une opération de commit
 
     `git status`
     
-- Montre les modifications de fichiers qui ne sont as indexés :
+- Montre les modifications de fichiers qui ne sont pas indexés :
 
     `git diff`
     
@@ -146,8 +146,40 @@ Nommer une série de commits et combiner les résultats de travaux terminés
 
     `git tag nom-tag`
     
+## Vérifier l'historique des versions
+Suivre et inspecter l'évolution des fichiers du projet
 
+- Montre l'historique des versions pour la branche courante :
+
+    `git log`
     
+- Montre l'historique des versions, y compris les actions de renommage, pour le fichier spécifié :
+
+    `git log --follow nom-fichier`
+    
+- Affiche tous les commits (uniquement l'identifiant et le texte) :
+
+    `git log --oneline`
+    
+- Affiche l'historique d'un utilisateur uniquement :
+
+    `git log --author="nom utilisateur"`
+    
+- Affiche l'historique des modifications pour un fichier uniquement :
+
+    `git log -p nom-fichier`
+    
+- Affiche les changements en détails dans un fichier :
+
+     `git blame nom-fichier`
+     
+- Montre les modificaions de métadonnées et le contenu inclues dans le commit spécifié :
+
+     `git show identifiant-du-commit`
+     
+- Affiche X derniers commits :
+
+    `git log -n X`
 
 
 
