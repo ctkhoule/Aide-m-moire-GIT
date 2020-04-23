@@ -59,5 +59,58 @@ Démarrer un nouveau dépôt ou en obtenir un depuis une URL existante et créer
     `git add .gitignore`
 
     `git commit -m "Ajout gitignore"`
+   
+## Effectuer des changements
+Consulter les modifications et effectuer une opération de commit
+
+- Liste tous les nouveaux fihiers et les fichiers modifiés à commiter :
+
+    `git status`
+    
+- Montre les modifications de fichiers qui ne sont as indexés :
+
+    `git diff`
+    
+- Montre les diférence de fichiers entre la version indexée et la dernière version :
+
+    `git diff --staged`
+    
+- Enleve le fichier de l'index, mais conserve son contenu :
+
+    `git reset nom-fichier`
+    
+- Ajoute tous les changements de toute l'arborescence
+
+    `git add --all`
+    
+- Ajoute un instantané du fichier, en préparation pour le suivi de version :
+ 
+    `git add nom-fichier`
+    
+- Enregistre des instantanés de fichiers de façon permanente dans l'historique des versions :
+
+    `git commit -m "message du commit"`
+    
+- Premier commit :
+
+    `git add .`
+
+    `git commit -m "Initial commit"`
+    
+- Commit suivant :
+
+    `git add chemin-vers-mon-fichier`
+
+    `git commit -m "message du commit"`
+    
+- Modifie le commit précédent : 
+
+    `git commit --amend -m "nouveau message du commit"`
+
+    
+
+    
+
+
 
 
