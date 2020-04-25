@@ -192,9 +192,20 @@ Déplacer et supprimer des fichiers sous suivi de version
 
   `git rm --cached nom-fichier`
   
-- Renomme le fichier et prépare le changement pour un commit
+- Renomme le fichier et prépare le changement pour un commit :
 
   `git mv nom-fichier nouveau-nom-fichier`
+  
+  ## Refaire des commits
+  Corriger des erreurs et gérer l'historique des corrections
+  
+- Annule tous les commits après 'identidifiant-du-commit', en coservant les modifications localement :
+  
+  `git reset identifiant-du-commit`
+  
+- Supprime tout l'historique et les modifications effectuées après le commit spécifié :
+
+  `git reset --hard identifiant-du-commit`
 
 
 
