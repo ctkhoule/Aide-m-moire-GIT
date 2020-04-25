@@ -179,33 +179,53 @@ Suivre et inspecter l'évolution des fichiers du projet
      
 - Affiche X derniers commits :
 
-    `git log -n X`
+     `git log -n X`
 
 ## Changement au niveau des noms de fichiers
 Déplacer et supprimer des fichiers sous suivi de version
 
 - Supprime le fichier du répertoire de travail et met à jour l'index :
 
-   `git rm nom-fichier`
+    `git rm nom-fichier`
    
 - Supprime le fichier du système de suivi de version mais le préserve localement :
 
-  `git rm --cached nom-fichier`
+    `git rm --cached nom-fichier`
   
 - Renomme le fichier et prépare le changement pour un commit :
 
-  `git mv nom-fichier nouveau-nom-fichier`
+    `git mv nom-fichier nouveau-nom-fichier`
   
   ## Refaire des commits
   Corriger des erreurs et gérer l'historique des corrections
   
 - Annule tous les commits après 'identidifiant-du-commit', en coservant les modifications localement :
   
-  `git reset identifiant-du-commit`
+    `git reset identifiant-du-commit`
   
 - Supprime tout l'historique et les modifications effectuées après le commit spécifié :
 
-  `git reset --hard identifiant-du-commit`
+    `git reset --hard identifiant-du-commit`
+
+## Enregistrer des fragments
+Mettre en suspens des modifications non finies pour y revenir plus tard
+
+- Enregistre de manière temporaire tous les fichiers sous suivi de version qui ont été modifiés ("remiser son travail") :
+
+    `git stash`
+    
+- Applique une remise et la supprime immédiatement :
+
+    `git stash pop`
+    
+- Liste tous les remises :
+
+    `git stash list`
+    
+- Supprime la remise la plus récente :
+
+    `git stash drop`
+
 
 
 
