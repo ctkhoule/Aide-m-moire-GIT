@@ -181,6 +181,23 @@ Suivre et inspecter l'évolution des fichiers du projet
 
     `git log -n X`
 
+## Changement au niveau des noms de fichiers
+Déplacer et supprimer des fichiers sous suivi de version
+
+- Supprime le fichier du répertoire de travail et met à jour l'index :
+
+   `git rm nom-fichier`
+   
+- Supprime le fichier du système de suivi de version mais le préserve localement :
+
+  `git rm --cached nom-fichier`
+  
+- Renomme le fichier et prépare le changement pour un commit
+
+  `git mv nom-fichier nouveau-nom-fichier`
+
+
+
 
 
 
