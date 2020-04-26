@@ -2,6 +2,8 @@
 Git est le sytème de gestion de version décentralisé open source qui facilite les activités GitHub sur votre ordinateur.
 Cet aide-mémoire permet un accès rapide aux instructions des commandes Git les plus utilisées.
 
+- Lien : [Git pour toutes les plate-formes](https://git-scm.com/)
+
 ## Configuration des outils
 Configurer les informations de l'utilisateurs pour tous les dépôts locaux
 
