@@ -196,8 +196,8 @@ Déplacer et supprimer des fichiers sous suivi de version
 
     `git mv nom-fichier nouveau-nom-fichier`
   
-  ## Refaire des commits
-  Corriger des erreurs et gérer l'historique des corrections
+## Refaire des commits
+Corriger des erreurs et gérer l'historique des corrections
   
 - Annule tous les commits après 'identidifiant-du-commit', en coservant les modifications localement :
   
