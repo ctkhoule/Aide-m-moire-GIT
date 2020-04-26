@@ -251,7 +251,7 @@ Référer un dépôt distant et synchroniser l'historique de versions
 
     `git pull origin master`
     
-- Publier les tags
+- Publie les tags :
 
     `git push --tags`
  
