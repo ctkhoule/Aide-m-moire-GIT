@@ -225,8 +225,38 @@ Mettre en suspens des modifications non finies pour y revenir plus tard
 - Supprime la remise la plus récente :
 
     `git stash drop`
+    
+## Synchroniser les changements
+Référer un dépôt distant et synchroniser l'historique de versions
 
+- Récupère tout l'historique du dépôt :
 
+    `git fetch nom-dépôt`
+     
+- Liste tous les dépôts distants configurés :
+
+    `git remote -v`
+    
+- Montre les informations d'un dépôt distant : 
+
+    `git remote show origin`
+    
+ - Synchronise la branche « origin » avec la master. Et indique origin comme le dépôt distant par défaut :
+ 
+    `git push -u origin master`
+    
+- Fusionne les modifications de la master distante sur la branche courante :
+
+    `git pull origin master`
+    
+- Publier les tags
+
+    `git push --tags`
+ 
+ 
+ 
+ 
+ 
 
 
 
