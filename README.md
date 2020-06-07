@@ -73,7 +73,7 @@ Consulter les modifications et effectuer une opération de commit
 
     `git diff`
     
-- Montre les diférence de fichiers entre la version indexée et la dernière version :
+- Montre les diférences de fichiers entre la version indexée et la dernière version :
 
     `git diff --staged`
     
