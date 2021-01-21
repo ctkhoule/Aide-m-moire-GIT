@@ -11,7 +11,7 @@ Configurer les informations de l'utilisateurs pour tous les dépôts locaux
 
   `git config --global user.name "votre nom"`
   
-- Définit l'email que vous voulez associer à toutes vos opérations de vommit :
+- Définit l'email que vous voulez associer à toutes vos opérations de commit :
   
   `git config --global user.email "adresse email"`
     
