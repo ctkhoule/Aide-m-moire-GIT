@@ -255,7 +255,19 @@ Référer un dépôt distant et synchroniser l'historique de versions
 
     `git push --tags`
  
- 
+ ## Les alias
+Git ne complète pas votre commande si vous ne la tapez que partiellement. Si vous ne voulez pas avoir à taper l’intégralité du texte de chaque commande, vous pouvez facilement définir un alias pour chaque commande en utilisant `git config`. Voici quelques exemples qui pourraient vous intéresser :
+
+     git config --global alias.co checkout
+    
+     git config --global alias.br branch
+    
+     git config --global alias.ci commit
+    
+     git config --global alias.st status
+    
+Ceci signifie que, par exemple, au lieu de taper git commit, vous n’avez plus qu’à taper `git ci`. Au fur et à mesure de votre utilisation de Git, vous utiliserez probablement d’autres commandes plus fréquemment. Dans ce cas, n’hésitez pas à créer de nouveaux alias.
+    
  --- 
  
  Me suivre sur les réseaux sociaux : 
