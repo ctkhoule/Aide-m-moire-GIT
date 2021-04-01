@@ -274,6 +274,10 @@ Git ne complète pas votre commande si vous ne la tapez que partiellement. Si vo
      git config --global alias.st status
     
 Ceci signifie que, par exemple, au lieu de taper git commit, vous n’avez plus qu’à taper `git ci`. Au fur et à mesure de votre utilisation de Git, vous utiliserez probablement d’autres commandes plus fréquemment. Dans ce cas, n’hésitez pas à créer de nouveaux alias.
+
+
+## Licence
+Le projet est sous licence MIT - voir le fichier [LICENCE](https://github.com/ctkhoule/Aide-memoire-GIT/blob/master/LICENSE) pour plus de détails.
     
  --- 
  
